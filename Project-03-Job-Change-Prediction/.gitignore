@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Model artifacts: keep only the final tuned pipeline
+artifacts/*
+!artifacts/best_tuned_model.joblib
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local review notes
+project_code_review.txt

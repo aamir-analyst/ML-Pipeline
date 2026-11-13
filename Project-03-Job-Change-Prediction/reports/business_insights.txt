@@ -1,0 +1,69 @@
+JOB CHANGE PREDICTION - BUSINESS INSIGHTS
+============================================================
+
+1. TARGET DISTRIBUTION
+target
+0.0    75.065247
+1.0    24.934753
+
+2. CITY DEVELOPMENT INDEX
+target
+0.0    0.853139
+1.0    0.755719
+
+3. TRAINING HOURS
+target
+0.0    66.113761
+1.0    63.118484
+
+4. EXPERIENCE ANALYSIS
+target            0.0        1.0
+experience                      
+<1          54.597701  45.402299
+1           57.559199  42.440801
+3           64.697194  35.302806
+2           66.814552  33.185448
+4           67.426942  32.573058
+7           70.525292  29.474708
+5           71.188811  28.811189
+6           71.792763  28.207237
+8           75.685786  24.314214
+11          77.259036  22.740964
+20          77.702703  22.297297
+9           78.265306  21.734694
+10          78.984772  21.015228
+13          80.701754  19.298246
+12          81.376518  18.623482
+14          81.740614  18.259386
+19          82.565789  17.434211
+17          83.333333  16.666667
+15          83.381924  16.618076
+18          84.642857  15.357143
+>20         84.692635  15.307365
+16          85.826772  14.173228
+
+5. RELEVANT EXPERIENCE ANALYSIS
+target                         0.0        1.0
+relevent_experience                          
+Has relevent experience  78.531032  21.468968
+No relevent experience   66.157287  33.842713
+
+6. BUSINESS RECOMMENDATIONS
+
+1. Prioritize candidates predicted as job seekers
+   for recruiter follow-up.
+
+2. Investigate early-career candidate requirements
+   and placement support.
+
+3. Use city development patterns to guide further
+   regional candidate research.
+
+4. Do not rely on training hours alone when
+   assessing job-change intention.
+
+5. Use human verification before making final
+   recruitment decisions.
+
+6. Monitor false positives and false negatives
+   before deploying the model.
